@@ -1,0 +1,116 @@
+-- 2.6 change log --
+Updated : Server modules check
+Updated : Conversion log check
+Update admin area text
+Fixed : Update installer for 2.6
+Fixed : CB Player preview thumb and Details
+Updated : CB Server Modules 
+Updated : FFMPEG Conversion
+Added : Mass Email
+Update : Update cb stats
+Update : FFMPEG codecs check
+Fixed : video counts on user block even after video section is disabled
+Fixed : user photo counts even after disabling photos section
+http://code.google.com/p/clipbucket/issues/detail?id=186
+Fixed : ReWrite Syntax Injection 
+http://code.google.com/p/clipbucket/issues/detail?id=185
+Added : New mass email
+Added : Plugin permissions in user levels
+Fixed : Video links option | in admin area
+Updatet : Template static variable to Cbucket->template
+Moved : User permissions in classes/collections.class.php
+Fixed : Video listing Most Viewed
+Fixed : Video link options in admin area
+Fixed : PHPMailer for localhost
+Fixed : email case insensitivie
+Fixed : extra params in plugins
+Fixed : crousal in view channel
+Updated : Counter function, now counts rows instead of pages\
+Updated : upgradeable.php to load 2.6 sql
+Fixed : SEO URL redirect for Videos
+Updated : cbplayer.plugin.php
+Added : cbplayer.plugin.php
+Fixed : website_logo in player
+-- Rev 22
+Added : Player file as plugin option
+Updated : upgrade_2.6.sql
+Fixed : plugin.php in admin area
+Added : Extra Condition parameter for get_videos function
+Fixed : Issue 173 , plugins wont work on module.php
+Added : Extra Parameter for Db Select Function
+Added : CBPlayer 
+Includes Auto Playlist,HD Button,Related videos and Facebook Share
+Fixed : Comments delete error
+Added : counters table in installation files
+Fixed : Now on photos page, recent photos will be displayed
+Added : Cached pagination system
+Fixed : news feed in admin panel
+Added : new video SEO URL option
+Added : custom video url option
+Added : direct view channel option
+Added : avcode in mass_email.php
+Updated : sql/upgrade_2.6.sql
+Added : cookie in logout.php
+Removed : Secret 'Forged by ClipBucket'
+TC : fixed video category anchors and added fields ids in form.html
+Added : Facebook Embed option
+Added : ClipBucket version 
+Added : cb_get_videos custom functions options
+Added : Facebook Embed option
+Added : no_video.flv
+Fixed : DatePicker year range
+Fixed : Language selector
+Fixed : main structure.sql for category column
+Fixed : view photo link in activity feeds
+Fixed : Private collection display
+Removed : Colons from pad video filter
+Fixed : The swapped links in download.html
+Fixed : Topic post parsing
+Removed : Ajax link from Back to topics
+Added : Upgrade 2.6 SQL
+Fixed : Unable to get video duration
+Fixed : pages error in footer
+Fixed : cleanForm function verifies if the string is not an array
+Added : Anchors on signup page
+Added : new plugin function places
+
+-- 2.5.1 change log --
+Fixed : user account menus
+Fixed : custom user fields
+Fixed : custom profile field
+Added : get featured videos via ajax.php
+Updated : 2.5.1 sql
+Added : no-tag option
+Updated : phrases
+Fixed : getimagesize problem
+Added : new column added photo_details
+Added : update file in sql folder 2.5~2.5.1
+Updated : getFileSmarty function.
+Fixed : Photo download for multiserver
+Fixed : Success message for recover username
+Changed : floor function to round
+Fixed : show_rating function
+Added : custom case for show_rating function
+Updated : Fetch function
+Fixed : manage playlist missing in upgrade
+Fixed : Sqls
+Update : installer for cb2.5.1
+Added : Iframe embed support
+Added : Big and small thumbs with same frame
+Updated : Installer
+Added : ClipBucket maintenance
+Fixed : Links and images in pages when magic_quotes are on
+Added: send_message language phrase
+Fixed : group admins error
+Fixed : Category update error
+Fixed : Config value exist check
+Fixed : video conversion without audio
+Fixed : code.google.com/p/clipbucket/issues/detail?id=146
+Update : checkRemoteFile function
+Added : Remote URL check
+Added : Remtoe URL functions
+Update : Error and msg CSS
+Added : Photos Multiserver option with SubDirectory
+Fixed : FFMPEG audio rate problem
+Fixed : Plugins Embed Code
+Fixed : SuckA** IE7 bug fixed
